@@ -1,4 +1,4 @@
-FROM alpine:3.2
+FROM alpine:3.4
 
 RUN apk add --no-cache bash ca-certificates git miniperl \
 	&& ln -s miniperl /usr/bin/perl
